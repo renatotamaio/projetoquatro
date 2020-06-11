@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.28 252" style="enable-background:new 0 0 595.28 252;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#A58653;}
+	.st1{clip-path:url(#SVGID_4_);}
+	.st2{fill:#383938;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'BebasNeue-Regular';}
+	.st5{font-size:44.2464px;}
+	.st6{letter-spacing:5;}
+	.st7{fill:#EEBE6E;}
+	.st8{font-size:31.6054px;}
+</style>
+<g>
+	<g>
+		<g>
+			<g>
+				<path class="st0" d="M288.57,130.51c-29.98,0-54.37-24.39-54.37-54.37c0-29.98,24.39-54.37,54.37-54.37
+					c29.98,0,54.37,24.39,54.37,54.37C342.95,106.13,318.56,130.51,288.57,130.51z M288.57,26.74c-27.24,0-49.41,22.16-49.41,49.41
+					c0,27.24,22.17,49.41,49.41,49.41c27.25,0,49.41-22.17,49.41-49.41C337.99,48.9,315.82,26.74,288.57,26.74z"/>
+			</g>
+			<g>
+				<g>
+					<defs>
+						<ellipse id="SVGID_1_" cx="288.57" cy="76.15" rx="40.73" ry="40.73"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+				</g>
+				<g>
+					<defs>
+						<ellipse id="SVGID_3_" cx="288.57" cy="76.15" rx="40.73" ry="40.73"/>
+					</defs>
+					<use xlink:href="#SVGID_3_"  style="overflow:visible;fill:#EEBE6E;"/>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st1">
+						<g>
+							<g>
+								<path class="st2" d="M321.24,43.48h-63.19l-8.21,81.54h79.6L321.24,43.48z"/>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g>
+					<defs>
+						<ellipse id="SVGID_5_" cx="288.57" cy="76.15" rx="40.73" ry="40.73"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+					</clipPath>
+				</g>
+			</g>
+			<path class="st2" d="M288.57,116.88c16.88,0,31.37-10.27,37.55-24.91l-4.88-48.49h-63.19l-5.25,52.16
+				C259.71,108.29,273.14,116.88,288.57,116.88z"/>
+			<g>
+				<path class="st3" d="M304.21,56.76c-1.15,4.19-5.06,14.14-16.27,14.14c-11.19,0-14.41-9.87-15.27-14.13
+					c-0.87-0.31-1.5-1.13-1.5-2.11c0-1.24,1-2.24,2.24-2.24c1.24,0,2.24,1,2.24,2.24c0,0.66-0.3,1.26-0.76,1.67
+					c0.71,3.71,3.39,12.28,13.05,12.28c9.53,0,12.97-8.5,14.02-12.27c-0.47-0.41-0.78-1.01-0.78-1.68c0-1.24,1-2.24,2.24-2.24
+					c1.24,0,2.24,1,2.24,2.24C305.66,55.63,305.06,56.44,304.21,56.76z"/>
+			</g>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 138.0739 173.9104)" class="st2 st4 st5 st6">Ganhe R$ 50,00</text>
+		</g>
+		<text transform="matrix(1 0 0 1 119.8704 211.9028)" class="st7 st4 st8">Em compras acima de R$ 300,00!!</text>
+	</g>
+</g>
+</svg>
