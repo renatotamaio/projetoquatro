@@ -1,0 +1,112 @@
+
+.colulna100{  /* codigo para a coluna ficar 100% */
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.menus{              /* cabecalio do menu home about etc */
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu{            /* configuração dos ulrs do menu */
+    height: 80px;
+    border-bottom: 3px solid #eeffee;
+}
+
+.coluna2{            /* tamanho dos textos e distanciamento um do outro */
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 29%;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.bloco-texto{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 2em;
+}
+
+.img{            /* tamanho das imagens */
+    width: 100%;
+    height: 100%;
+}
+
+.content {      /* tamanho das logos do cabecalio e class content */
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.texto{   /* alinhas o texto no centro */
+    text-align: center;
+}
+
+.texto strong{ /* alterar a cor do negrito */
+    color: #646464;
+}
+
+.texto h1{   /* a cor da fonte h1 */
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;   /* deixar todas letras em maiusculo do h1 */
+}
+
+.texto p{    /* a cor da fonte do paragrafo */
+    color: #9a9a9a;  
+    font-size: 15px;      
+}
+
+.img2{
+    width: 100%;
+    height: 100%;
+}
+
+.coluna3{            /* tamanho dos textos e distanciamento um do outro */
+    padding-left: 10px;
+    padding-right: 10px;
+
+    float: left;
+    position: relative;
+    margin-top: 3em;
+
+}
+
+.margem2{
+    margin-left: 50px;
+}
+
+.col-4{      /* codigo para alinhar quem esta na classe col4 */
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.footer h3{     /* alinhar o texto pra esquerda */
+    text-align: left;
+    }
+
+.footer {
+    background-image: url(img/footer.png) ;  /* imagem do footer */
+    color: #ffffff;   /* tudo que colocar dentro do footer tera a cor branca */
+}
+
+.footer p{   /* deixando melhor visual nas linahs dentro do footer */
+    width: 90%;
+    text-align: left;
+}
+
+.footer2{      /* aqui é o fundo da imagem do footer2 (o 2º footer) */
+    background-image: url(img/footer2.png);
+    color: #c1c1c1;
+    height: 70px;
+}
+
+.footer2 p{ /* espaçamento */
+    padding: 10px;
+}
