@@ -10,6 +10,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr
 }
+
 .cabecalho{
     background-color: #1F1F25;
     grid-column: 1/4;
@@ -79,7 +80,7 @@ body{
 
 .campo_busca{
     display: grid;
-    width:1000px;
+    width:800px;
     position: relative;
     
 }
@@ -182,6 +183,6 @@ body{
 }
 
 .margemcard{
-    margin-right: 40px;
-    margin-left: 37px;
+    margin-right: 49px;
+    margin-left: 50px;
 }
