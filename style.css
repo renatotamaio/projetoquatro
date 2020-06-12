@@ -28,10 +28,6 @@
 }
 
 .bloco-texto{        /* dar uma queda de pixel em relação aos demais */
-    margin-top: 4em;
-}
-
-.bloco-texto2{        /* dar uma queda de pixel em relação aos demais */
     margin-top: 2em;
 }
 
@@ -108,19 +104,9 @@
 .footer2{      /* aqui é o fundo da imagem do footer2 (o 2º footer) */
     background-image: url(img/footer2.png);
     color: #c1c1c1;
-    height: 60px;
+    height: 70px;
 }
 
 .footer2 p{ /* espaçamento */
-    padding: 17px;
-    text-align: center;
-}
-
-.preco{ /* cor do preço */
-    color: #620f0f;
-}
-
-.img3{
-    height: 100%;
-    width: 100%;
+    padding: 10px;
 }

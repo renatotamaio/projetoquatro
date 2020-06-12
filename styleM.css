@@ -1,0 +1,187 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr
+}
+.cabecalho{
+    background-color: #1F1F25;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.logo{
+    height: 90%;
+    float: left;
+    margin: 5px;
+}
+
+/*Regras de Botoes Login e Carrinho*/
+.containerLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.containerLogin>p{
+    color: white;
+    margin: 0;
+}
+
+
+.Carrinho_Login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.containerCarrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.containerCarrinho>p{
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+
+.iconeCarrinho{
+    fill: aliceblue;
+}
+
+
+.iconeLogin{
+    fill: aliceblue;
+}
+
+
+.cabecalho>input{
+    width: auto;
+    margin: auto;
+}
+
+.campo_busca{
+    display: grid;
+    width:1000px;
+    position: relative;
+    
+}
+
+.campo_busca>.barra_pesquisa{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.campo_busca>.botao_pesquisar{
+    position: absolute;   
+    top: 0; 
+    right: 0;
+    height: 100%;
+    margin: 2px 10px 10px 10px;
+}
+
+/*classes do conteudo*/
+.conteudo{
+  grid-column: 1/4;
+}
+
+.coluna2{            /* tamanho dos textos e distanciamento um do outro */
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+    margin-right: 22px;
+    margin-left: 37px;
+}
+
+.bloco-texto{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 4em;
+}
+
+.bloco-texto2{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 2em;
+}
+
+.img{            /* tamanho das imagens */
+    width: 100%;
+    height: 100%;
+}
+
+.content {      /* tamanho das logos do cabecalio e class content */
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.texto{   /* alinhas o texto no centro */
+    text-align: center;
+}
+
+.texto strong{ /* alterar a cor do negrito */
+    color: #646464;
+}
+
+.texto h1{   /* a cor da fonte h1 */
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;   /* deixar todas letras em maiusculo do h1 */
+}
+
+.texto p{    /* a cor da fonte do paragrafo */
+    color: #9a9a9a;  
+    font-size: 15px;      
+}
+
+.img2{
+    width: 100%;
+    height: 100%;
+}
+
+.coluna3{            /* tamanho dos textos e distanciamento um do outro */
+    padding-left: 10px;
+    padding-right: 10px;
+
+    float: left;
+    position: relative;
+    margin-top: 3em;
+
+}
+
+.margem2{
+    margin-left: 50px;
+}
+
+
+.preco{ /* cor do preço */
+    color: #620f0f;
+}
+
+.img3{
+    height: 100%;
+    width: 100%;
+}
+
+.margemcard{
+    margin-right: 40px;
+    margin-left: 37px;
+}
