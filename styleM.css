@@ -108,8 +108,8 @@ body{
     width: 25%;
     float: left;
     position: relative;
-    margin-right: 70px;
-    margin-left: 80px;
+    margin-right: 65px;
+    margin-left: 75px;
 }
 
 .bloco-texto{        /* dar uma queda de pixel em relação aos demais */
@@ -161,7 +161,7 @@ body{
     float: left;
     position: relative;
     margin-right: 70px;
-    margin-left: 80px;
+    margin-left: 00px;
     margin-top: 3rem;
 }
 
@@ -184,3 +184,47 @@ body{
     margin-right: 28px;
     margin-left: 58px;
 }
+
+.col-4{      /* codigo para alinhar quem esta na classe col4 */
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.footer h3{     /* alinhar o texto pra esquerda */
+    text-align: left;
+    }
+
+.footer {
+    background-image: url(img/footer2.png) ;  /* imagem do footer */
+    color: #ffffff;   /* tudo que colocar dentro do footer tera a cor branca */
+    
+}
+
+.footer p{   /* deixando melhor visual nas linahs dentro do footer */
+    width: 90%;
+    text-align: left;
+}
+
+.footer2{      /* aqui é o fundo da imagem do footer2 (o 2º footer) */
+    background-image: url(img/footer2.png);
+    color: #c1c1c1;
+    height: 60px;
+
+    
+}
+
+.footer2 p{ /* espaçamento */
+    padding: 17px;
+    text-align: center;
+}
+
+.coluna100{  /* codigo para a coluna ficar 100% */
+    width: 300%;
+    float: left;
+    position: relative;
+
+}
+
+
+
