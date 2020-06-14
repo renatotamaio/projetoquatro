@@ -183,3 +183,7 @@ html, body{
 .cor4{
     background-color: red;
 }
+
+.bloco1{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 2em;
+}
