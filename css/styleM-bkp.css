@@ -1,0 +1,132 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cabecalho{
+    background-color: #1F1F25;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.logo{
+    height: 90%;
+    float: left;
+    margin: 5px;
+}
+
+/*Regras de Botoes Login e Carrinho*/
+.containerLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.containerLogin>p{
+    color: white;
+    margin: 0;
+}
+
+
+.Carrinho_Login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.containerCarrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.containerCarrinho>p{
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+
+.iconeCarrinho{
+    fill: white;
+}
+
+
+.iconeLogin{
+    fill: white;
+}
+
+
+.cabecalho>input{
+    width: auto;
+    margin: auto;
+}
+
+.campo_busca{
+    display: grid;
+    width:1000px;
+    position: relative;
+    
+}
+
+.campo_busca>.barra_pesquisa{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.campo_busca>.botao_pesquisar{
+    position: absolute;   
+    top: 0; 
+    right: 0;
+    height: 100%;
+    margin: 5px 10px 10px 10px;
+}
+
+/*classes do conteudo*/
+.conteudo{
+  grid-column: 1/4;
+}
+
+
+
+.textoRodape{
+    color: white;
+    padding: 10px;
+
+}
+
+.textoRodape>p>a{
+    color: white;
+}
+
+.textoRodape>p>a:active{
+    color: lightseagreen;
+}
+
+.textoRodape>p>a:hover{
+    color: #EEBE6E;
+    text-decoration: underline;
+}
+
+.rodape{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width: 992px){
+    .textoRodape{
+        padding-top: 30px;
+    }
+}

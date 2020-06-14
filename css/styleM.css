@@ -1,0 +1,181 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo{
+    height: 100px;
+    margin: 5px;
+}
+
+/*Regras de Botoes Login e Carrinho*/
+.Carrinho_Login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.containerLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.containerLogin>p{
+    color: white;
+    margin: 0;
+}
+
+.containerCarrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.containerCarrinho>p{
+    color: white;
+    margin: 0;
+}
+
+.iconeCarrinho{
+    fill: white;
+}
+
+
+.iconeLogin{
+    fill: white;
+}
+
+
+.cabecalho>input{
+    width: auto;
+    margin: auto;
+}
+
+.campo_busca{
+    display: grid;
+    width:45%;
+    position: relative;
+    
+}
+
+.barra_pesquisa{
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.botao_pesquisar{
+    position: absolute; 
+    top: 37px; 
+    bottom: 10px;
+    right: 20px;
+    height: 10px;
+}
+
+/*classes do conteudo*/
+.conteudo{
+  grid-column: 1/4;
+}
+
+
+
+.textoRodape{
+    color: white;
+    padding: 10px;
+
+}
+
+.textoRodape>p>a{
+    color: white;
+}
+
+.textoRodape>p>a:active{
+    color: lightseagreen;
+}
+
+.textoRodape>p>a:hover{
+    color: #EEBE6E;
+    text-decoration: underline;
+}
+
+@media(max-width: 992px){
+    .textoRodape{
+        padding-top: 30px;
+    }
+}
+
+.bloco-texto3{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 5em;
+}
+
+.bloco-texto2{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 3em;
+}
+
+
+
+.content4 {      /* tamanho das logos do cabecalio e class content */
+    margin: 0 auto;
+    width: 100%;
+
+    text-align: center;
+}
+
+.texto3{   /* alinhas o texto no centro */
+    text-align: center;
+}
+
+.texto3 strong{ /* alterar a cor do negrito */
+    color: #646464;
+}
+
+.img3{
+    height: 100%;
+    width: 100%;
+}
+
+.bloco-texto{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 5em;
+}
+
+.texto-coluna{
+    text-align: center;
+    width: 350px;
+}
+
+.coluna2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textocard{   /* alinhas o texto no centro */
+    text-align: center;
+}
+
+.preco{ /* cor do preço */
+    color: #620f0f;
+}
+
+.colunacard{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img2{
+    width: 90%;
+    height: 90%;
+}
