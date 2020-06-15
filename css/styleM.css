@@ -122,6 +122,10 @@ html, body{
     margin-top: 3em;
 }
 
+.bloco-texto6{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 6em;
+}
+
 
 
 .content4 {      /* tamanho das logos do cabecalio e class content */
@@ -186,4 +190,9 @@ html, body{
 
 .bloco1{        /* dar uma queda de pixel em relação aos demais */
     margin-top: 2em;
+}
+
+.img4{
+    height: 80%;
+    width: 80%;
 }
