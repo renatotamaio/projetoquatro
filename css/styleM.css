@@ -2,16 +2,15 @@ html, body{
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/*Regras do cabeçalho*/
 .logo{
-    height: 100px;
-    margin: 5px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-/*Regras de Botoes Login e Carrinho*/
 .Carrinho_Login{
     display: flex;
     align-items: center;
@@ -28,9 +27,18 @@ html, body{
 }
 
 
-.containerLogin>p{
+.containerLogin, .containerCarrinho{
     color: white;
-    margin: 0;
+}
+
+
+.containerLogin:hover, .containerCarrinho:hover{
+    color: #FFD48F;
+    text-decoration: none;
+}
+
+.containerLogin:hover svg, .containerCarrinho:hover svg{
+    fill: #FFD48F;
 }
 
 .containerCarrinho{
@@ -39,11 +47,6 @@ html, body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-}
-
-.containerCarrinho>p{
-    color: white;
-    margin: 0;
 }
 
 .iconeCarrinho{
@@ -74,21 +77,51 @@ html, body{
     border-radius: 2px;
 }
 
+.barra_pesquisa, .botao_pesquisar{padding: 0;}
+
 .botao_pesquisar{
     position: absolute; 
-    top: 37px; 
+    top: 33px; 
     bottom: 10px;
     right: 20px;
     height: 10px;
 }
 
-/*classes do conteudo*/
-.conteudo{
-  grid-column: 1/4;
+/*Fim de Regras do Cabeçalho*/
+
+/*Configurações do Menu*/
+.configNav{
+    background-color: #2C2C32;
+
 }
 
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link{
+    border-bottom: #2C2C32 inset 2px;
+  
+    
+}
+
+.dropdown-item{
+    color: #a0a0a0;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: aliceblue;
+    border-bottom: inset 2px #FFD48F;
+}
+
+.dropdown-menu{
+    background-color: #2C2C32;
+
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #EEBE6E;
+}
+/*fim de Regras do menu*/
 
 
+/*Configurações do rodapé*/
 .textoRodape{
     color: white;
     padding: 10px;
@@ -99,20 +132,98 @@ html, body{
     color: white;
 }
 
-.textoRodape>p>a:active{
-    color: lightseagreen;
-}
-
 .textoRodape>p>a:hover{
     color: #EEBE6E;
     text-decoration: underline;
 }
+/*Fim de regras do rodapé*/
 
-@media(max-width: 992px){
+/*Regras do conteudo*/
+/*
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+*****************************************
+/*Fim de regras do conteudo*/
+
+/*Configurações de responsividade*/
+@media(max-width: 1640px){
+    .containerLogin, .containerCarrinho {
+        color: white;
+        font-size: 13px;
+        margin: 0 0 0 5px;
+    }
+}
+
+@media(max-width: 1360px){
+    .containerLogin svg, .containerCarrinho svg{
+        height: 40px;
+        width: 40px;
+    }
+
+    .containerLogin, .containerCarrinho {
+        color: white;
+        font-size: 0px;
+        margin: 0 0 0 5px;
+    }
+
+    .botao_pesquisar{
+        top: 16px; 
+        bottom: 10px;
+        right: 20px;
+        height: 8px;
+    }
+}
+
+
+@media(max-width: 995px){
     .textoRodape{
         padding-top: 30px;
     }
+
+    .configNav{
+        background-color: #1F1F25;
+    }
+
+    .containerLogin svg, .containerCarrinho svg{
+        height: 60px;
+        width: 60px;
+    }
+    .containerLogin{
+        font-size: 20px;
+    }
+    .containerCarrinho{
+        font-size: 20px;
+    
+    }
+
+    .botao_pesquisar{
+        position: absolute; 
+        top: 0px; 
+        right: 20px;
+    }
+
+    .campo_busca{
+        align-self: flex-start !important;
+    }
+    
+
 }
+
+@media(max-width: 720px){
+    .containerLogin{
+        font-size: 0;
+    }
+    .containerCarrinho{
+        font-size: 0;
+    
+    }
+}
+
 
 .bloco-texto3{        /* dar uma queda de pixel em relação aos demais */
     margin-top: 5em;
