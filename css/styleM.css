@@ -2,6 +2,7 @@ html, body{
     height: 100%;
     padding: 0;
     margin: 0;
+    background-color: #F0F0F0;
 }
 
 /*Regras do cabeçalho*/
@@ -87,6 +88,19 @@ html, body{
     height: 10px;
 }
 
+.botao_pesquisar{
+    position: absolute; 
+    top: 33px; 
+    bottom: 10px;
+    right: 20px;
+    height: 10px;
+}
+
+.botao_pesquisar:hover svg{
+    fill: #A58654;
+}
+
+
 /*Fim de Regras do Cabeçalho*/
 
 /*Configurações do Menu*/
@@ -97,12 +111,12 @@ html, body{
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link{
     border-bottom: #2C2C32 inset 2px;
-  
-    
+
+
 }
 
 .dropdown-item{
-    color: #a0a0a0;
+    color: aliceblue;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
@@ -283,6 +297,10 @@ html, body{
     color: #620f0f;
 }
 
+.preco2{ /* cor do preço */
+    color: #775e35;
+}
+
 .colunacard{
     display: flex;
     flex-wrap: wrap;
@@ -307,3 +325,64 @@ html, body{
     height: 80%;
     width: 80%;
 }
+
+.preto{
+    color: black;
+}
+
+.bloco-card{
+    margin-top: 3em;
+        background-color: white;
+        border-radius: 3px;
+        border: 2px solid #ccc;
+    
+}
+
+.img10{
+        width: 55%;
+}
+
+.containerEmail{
+    background-color: rgb(247, 247, 247);
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.btn-outline-warning{
+    margin: 10px;
+    box-sizing: border-box;
+    color: #866709;
+    border-color: #997301;
+}
+
+.btn-outline-warning:hover{
+    color: #f5e1c0;
+    background-color: #A58654;
+}
+
+#campoEmail{
+    width: 90%;
+}
+
+.breadcrumb-item > a:hover{
+    color: #997301;
+    text-decoration: none;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.breadcrumb{
+    background-color: #F3F3F3;
+}
+
+
