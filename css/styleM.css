@@ -251,6 +251,10 @@ html, body{
     margin-top: 6em;
 }
 
+.bloco-texto9{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 2em;
+}
+
 
 
 .content4 {      /* tamanho das logos do cabecalio e class content */
@@ -386,3 +390,14 @@ a {
 }
 
 
+.fonte1{
+    font-size: 12px;
+}
+
+.fonte2{
+    font-size: 20px;
+}
+
+.corpastel{
+   color: #775e35;
+}
