@@ -401,3 +401,10 @@ a {
 .corpastel{
    color: #775e35;
 }
+
+.coluna10{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: space-around;
+}
