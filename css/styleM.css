@@ -255,6 +255,10 @@ html, body{
     margin-top: 2em;
 }
 
+.bloco-texto5{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 1em;
+}
+
 
 
 .content4 {      /* tamanho das logos do cabecalio e class content */
@@ -407,4 +411,18 @@ a {
     flex-wrap: wrap;
     align-items: right;
     justify-content: space-around;
+}
+
+.textoRodape2{
+    color: white;
+
+}
+
+.textoRodape2>p>a{
+    color: white;
+}
+
+.textoRodape2 a:hover{
+    color: #EEBE6E;
+    text-decoration: underline;
 }
