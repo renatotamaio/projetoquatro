@@ -1,0 +1,167 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.containerConteudo{
+    height: 100%;
+}
+
+.containerForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 90%;
+    border: solid 1px rgb(211, 211, 211);
+    margin: 50px auto 50px auto;
+}
+
+.containerItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    font-weight: bolder;
+    color: rgb(110, 77, 15);
+    grid-column: 1/4;
+    grid-template-rows: 1/2;
+    margin-top: 30px;
+}
+
+
+.generosRadios{
+    margin-bottom: 50px;
+}
+
+input{
+    margin-bottom: 30px;
+}
+
+.dadosPessoais, .containerLocalizacao{
+    border-right: 1px solid rgb(110, 77, 15);
+}
+
+.dadosPessoais, .containerLocalizacao, .dadosAcesso{
+    margin: 30px;
+}
+
+a:hover{
+    color: #EEBE6E;
+    text-decoration: underline;
+}
+
+a{
+    color: #382402;
+    text-decoration: none;
+}
+
+.breadcrumb{
+    background-color: #ffffff4b;
+}
+
+.btn-outline-warning{
+    margin: 10px;
+    box-sizing: border-box;
+    color: #866709;
+    border-color: #997301;
+}
+
+.btn-outline-warning:hover{
+    color: #f5e1c0;
+    background-color: #A58654;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+
+    color: #fff;
+    border-color: #866709;
+    background-color: #866709;
+
+}
+
+.rodape{
+    font-size: 13px;
+}
+.textoRodape{
+    color: white;
+    padding: 10px;
+
+}
+
+.textoRodape>p>a{
+    color: white;
+}
+
+.textoRodape>p>a:hover{
+    color: #EEBE6E;
+    text-decoration: underline;
+}
+
+.containerRuaNumero{
+    display: flex;
+    flex-direction:row;
+}
+
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #383843;
+    color: white;
+    font-size: 10px;
+}
+
+
+@media (max-width: 990px) {
+    .containerConteudo{
+        height: auto;
+    }
+
+    .containerForm{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr;
+
+    }   
+    
+    h4{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    .dadosPessoais{
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
+    .dadosPessoais{
+        border-right: 0;
+        border-bottom: 1px solid rgb(110, 77, 15);
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .containerForm{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr;
+
+    } 
+
+    .containerLocalizacao{
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+
+    .dadosAcesso{
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+    
+    .dadosPessoais, .containerLocalizacao{
+        border-right: 0;
+        border-bottom: 1px solid rgb(110, 77, 15);
+    }
+    
+}
