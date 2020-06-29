@@ -10,7 +10,7 @@ function logarConta() {
     }
 
     if (email.value == 'renatotamaio@hotmail.com' && senha.value == '5754779nino') {
-        alert('Usuário autenticado, bem-vindo Bruno!');
+        alert('Usuário autenticado, bem-vindo Renato!');
         email.classList.add('is-valid')
         senha.classList.add('is-valid')
         window.location.href = "indexvalidado.html"
