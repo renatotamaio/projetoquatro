@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styleM.css">
+</head>
+
+<body>
+    <!--Cabeçalho e menu estao na mesma linha, logo no mesmo container-->
+    <!--Inicio do cabeçalho-->
+    <div class="container-fluid" style="background-color: #1F1F25;">
+        <div class="row justify-content-around">
+            <a href="index.html" class="col-5 col-lg-2 order-lg-1 order-1"><img src="img/arakenNovo2.svg" alt=""
+                    class="logo"></a>
+
+            <!--Campo de busca + botão-->
+            <div class="campo_busca col-lg-7 col-10 order-lg-2 order-4 align-items-center ">
+
+                <input type="search" class="barra_pesquisa order-lg-2 order-md-5">
+                <a href="#" class="botao_pesquisar"><svg xmlns="http://www.w3.org/2000/svg" height="40"
+                        viewBox="0 0 24 24" width="40">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 
+                3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                    </svg></a>
+            </div>
+
+            <!--Carrinho e Login-->
+            <div class="Carrinho_Login col-6 col-lg-2 order-lg-3 order-2">
+
+                <a href="#" class="containerLogin">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24" width="50"
+                        class="iconeLogin">
+                        <path
+                            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                        <path d="M0 0h24v24H0z" fill="none" />
+                    </svg>
+                    Account
+                </a>
+
+                <a href="#" class="containerCarrinho">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24" width="50"
+                        class="iconeCarrinho">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 
+                     1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 
+                     0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 
+                     16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" />
+                    </svg>
+                    Shopping car
+                </a>
+            </div>
+            <!--Menu-->
+            <nav class="navbar navbar-expand-lg navbar-dark col-2 col-lg-12 order-3 configNav ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                    aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav d-flex justify-content-around w-100">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                HOME
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Home and Kitchen</a>
+                                <a class="dropdown-item" href="#">Decoration</a>
+                                <a class="dropdown-item" href="#">Garden</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                MÓVEIS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Kitchen</a>
+                                <a class="dropdown-item" href="#">Bedroom</a>
+                                <a class="dropdown-item" href="#">Living Room</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ELETRO
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Home Appliances</a>
+                                <a class="dropdown-item" href="#">Eletronics</a>
+                                <a class="dropdown-item" href="#">
+                                    Small Appliances</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                BUILDING
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">
+                                    Finishing</a>
+                                <a class="dropdown-item" href="#">Floors</a>
+                                <a class="dropdown-item" href="#">Paints</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                CARCENTER
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Accessories</a>
+                                <a class="dropdown-item" href="#">Cleaning</a>
+                                <a class="dropdown-item" href="#">Tires</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                CLOTHING
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Women</a>
+                                <a class="dropdown-item" href="#">Men</a>
+                                <a class="dropdown-item" href="#">Kids & Baby</a>
+                            </div>
+                        </li>
+
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Women</a>
+                            <a class="dropdown-item" href="#">Men</a>
+                            <a class="dropdown-item" href="#">Kids & Baby</a>
+                            <!-- Links do menu dropleft -->
+
+                        </div>
+                </div>
+
+
+
+                </ul>
+
+        </div>
+
+        </nav>
+
+    </div>
+
+
+    </div>
+    <!-- Fim do cabeçalho-->
+
+
+        <!-- Conteúdo-->
+        <main class="container bloco-texto2">
+
+            <p class="preco"><b>Attendance</b></p>
+            <p>Online store: 9999 0000</p>
+            <p>Physical store: 0800 777 7777</p>
+            <p class="preco bloco1"><b>Telesales</b></p>
+            <p>(16) 9 9999-9999</p>
+            <p>E-mail: faleconosco@araken.com.br</p>             
+            <p class="preco bloco1"><b>Opening Hours</b></p>
+            <p>Monday to Friday - 8am to 18pm</p>
+            <p>Sundays and holidays - 8am to 18pm</p>
+            <p class="preco bloco1"><b>Loja fisica</b></p>
+            <p>Av. dos Amaros, nº 355-459, Jardim Espanha, Itápolis/SP - CEP 14900-000</p>
+            <p class="preco bloco1"><b>Opening Hours</b></p>
+            <p>Monday to Friday - 8am to 18pm</p>
+            <p>Sundays and holidays - 8am to 18pm</p>
+            <br>
+
+
+        </main>
+
+        <!--Fim de conteudo-->
+
+
+
+        <!--Rodapé-->
+    <!--Rodapé-->
+    <div class="container-fluid rodape" style="background-color: #1F1F25;  margin-top: 3em;">
+        <div class="row justify-content-between" style="padding-left: 10px;">
+            <div class="col-12 col-sm-6 col-lg-3 textoRodape">
+                <h3>Opening Hours</h3>
+                <p>Monday to Friday - 8am to 18pm</p>
+                <p>Sundays and holidays - 8am to 18pm</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 textoRodape">
+                <h3>Telesales</h3>
+                <p>(16) 9 9999-9999</p>
+                <p>0800 777 7777</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 textoRodape">
+                <h3>	
+                    Let Us Help You</h3>
+                <p><a href="#">Site Map</a></p>
+                <p><a href="englishpage">English Page</a></p>
+                   
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 textoRodape">
+                <h3>Araken Home Center</h3>
+                <p><a href="quemsomos.html" class="linksRodape">About Us</a></p><a href="#"></a>
+                <p><a href="nossaloja.html">Our Store</a></p>
+                <p><a href="faleconosco.html">Contact Us</a></p>
+                <p><a href="servicos.html">Services</a></p>
+            </div>
+        </div>
+    </div>
+  
+    <footer class="container-fluid" style="background-color: #383843; padding-top: 9px;">
+        <div class="row justify-content-center" style="color: white;">
+            <p>Copyright © 2000 - 2020
+                - CNPJ n.º 00.000.00000 / Av. dos Amaros, nº 355-459, Jardim Espanha,
+                Itápolis/SP - CEP 14900-000 - Comarella group company.</p>
+        </div>
+    </footer>
+
+            <!-- Script bootstrap-->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                crossorigin="anonymous"></script>
+
+</body>
+
+</html>
